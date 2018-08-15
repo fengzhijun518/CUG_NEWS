@@ -45,7 +45,7 @@ def download_news(url):
 
 url_list = []
 url = 'http://www.cug.edu.cn/index/ddyw.htm'
-for i in range(1,171):
+for i in range(1,173):
     url = 'http://www.cug.edu.cn/index/ddyw/' + str(i) + '.htm'
     url_list.append(url)
 for item in url_list:

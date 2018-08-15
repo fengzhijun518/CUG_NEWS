@@ -11,6 +11,7 @@ with open(r"D:\pythneil\spider\cail2018_big.json", encoding='utf-8') as load_f:
         load_dict = json.loads(line)
         json_list.append(load_dict)
 print(len(json_list))
+print(json_list)
 # print(json_list[0])
 
 acc_list = []
